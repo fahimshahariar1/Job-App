@@ -1,3 +1,4 @@
+import 'package:day22_23/screens/searchbar.dart';
 import 'package:flutter/material.dart';
 
 import 'appbar.dart';
@@ -29,7 +30,9 @@ class _HomePageState extends State<HomePage> {
             ),
             Column(
               children: [
-                HomeAppbar()
+                HomeAppbar(),
+                SizedBox(height: 30,),
+                SearchBar(),
               ],
             )
           ],
