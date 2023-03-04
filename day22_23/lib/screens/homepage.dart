@@ -1,3 +1,4 @@
+import 'package:day22_23/screens/companyList..dart';
 import 'package:day22_23/screens/searchbar.dart';
 import 'package:day22_23/screens/tagbar.dart';
 import 'package:flutter/material.dart';
@@ -35,6 +36,7 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(height: 30,),
                 SearchBar(),
                 TagBar(),
+                CompanyList(),
               ],
             )
           ],
